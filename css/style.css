@@ -366,3 +366,20 @@ border-radius:20px;
 box-shadow:0 15px 35px rgba(0,0,0,.2);
 
 }
+.card{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:.8s;
+
+}
+
+.card.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
