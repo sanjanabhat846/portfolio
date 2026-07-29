@@ -1,171 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Air Pollution Detection | Sanjana Bhat</title>
-
-<link rel="stylesheet" href="../css/style.css">
-
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">
-Sanjana Bhat
-</div>
-
-<ul class="nav-links">
-
-<li><a href="../index.html">Home</a></li>
-<li><a href="../about.html">About</a></li>
-<li><a href="../projects.html">Projects</a></li>
-<li><a href="../skills.html">Skills</a></li>
-<li><a href="../contact.html">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<section>
-
-<h1>🌫 Air Pollution Detection</h1>
-
-<p>
-
-Air Pollution Detection is a Machine Learning project that predicts air quality levels using environmental data. The system analyzes pollution indicators and estimates the Air Quality Index (AQI), helping users understand environmental conditions.
-
-</p>
-
-<h2>Problem Statement</h2>
-
-<p>
-
-Air pollution has become a major environmental concern. Monitoring pollution levels manually is difficult, and timely predictions are essential for public health and decision-making.
-
-</p>
-
-<h2>Solution</h2>
-
-<p>
-
-The application uses machine learning models trained on historical air quality data to predict pollution levels based on various environmental parameters.
-
-</p>
-
-<h2>Key Features</h2>
-
-<ul>
-
-<li>Air Quality Index prediction</li>
-
-<li>Environmental data analysis</li>
-
-<li>Interactive dashboard</li>
-
-<li>Machine Learning forecasting</li>
-
-<li>Easy-to-use interface</li>
-
-</ul>
-
-<h2>Technologies Used</h2>
-
-<ul>
-
-<li>Python</li>
-
-<li>Scikit-Learn</li>
-
-<li>Pandas</li>
-
-<li>NumPy</li>
-
-<li>Flask</li>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>JavaScript</li>
-
-</ul>
-
-<h2>Dataset</h2>
-
-<p>
-
-Historical air quality datasets containing pollutant concentrations and weather information.
-
-</p>
-
-<h2>My Contributions</h2>
-
-<ul>
-
-<li>Dataset preprocessing</li>
-
-<li>Feature engineering</li>
-
-<li>Model training and evaluation</li>
-
-<li>Frontend development</li>
-
-<li>Backend integration</li>
-
-<li>GitHub collaboration</li>
-
-</ul>
-
-<h2>Future Improvements</h2>
-
-<ul>
-
-<li>Real-time sensor integration</li>
-
-<li>Weather forecasting support</li>
-
-<li>Interactive pollution maps</li>
-
-<li>Mobile application</li>
-
-<li>Cloud deployment</li>
-
-</ul>
-
-<h2>GitHub</h2>
-
-<p>
-
-<a href="https://github.com/pragna4718/air-pollution-image-detection-project" target="_blank">
-
-View Project Repository
-
-</a>
-
-</p>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Sanjana Bhat | AI & Machine Learning Portfolio
-
-</p>
-
-</footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Air Pollution Image Detection project details by Sanjana Bhat." />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Air Pollution Detection | Sanjana Bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body id="top">
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="../index.html" class="logo">Sanju<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../skills.html">Skills</a></li>
+          <li><a href="../projects.html" class="active">Projects</a></li>
+          <li><a href="../experience.html">Experience</a></li>
+          <li><a href="../education.html">Education</a></li>
+          <li><a href="../certifications.html">Certifications</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../resume.html">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inner-hero">
+        <div class="container reveal">
+          <p class="eyebrow">Project Detail</p>
+          <h1>Air Pollution Image Detection</h1>
+          <p class="hero-copy">A predictive environmental analysis system that uses machine learning to interpret pollution-related data and support awareness.</p>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container card-grid reveal">
+          <article class="feature-card"><h3>Overview</h3><p>This project focuses on predicting air pollution conditions using environmental datasets and machine learning models.</p></article>
+          <article class="feature-card"><h3>Problem Statement</h3><p>Monitoring pollution effectively requires timely analysis, which is difficult to do manually at scale for public health planning.</p></article>
+          <article class="feature-card"><h3>Solution</h3><p>The project applies machine learning to analyze environmental parameters and estimate pollution levels or air quality categories.</p></article>
+          <article class="feature-card"><h3>Features</h3><p>Data-driven forecasting, environmental data analysis, intuitive UI, and predictive output for pollution insights.</p></article>
+          <article class="feature-card"><h3>Technologies Used</h3><p>Python, Scikit-learn, Pandas, NumPy, Flask, HTML, CSS, JavaScript.</p></article>
+          <article class="feature-card"><h3>Challenges</h3><p>Working with incomplete datasets and creating reliable predictions from environmental variables.</p></article>
+          <article class="feature-card"><h3>Future Improvements</h3><p>Real-time sensor integration, weather-aware forecasting, map-based visualizations, and broader regional coverage.</p></article>
+          <article class="feature-card"><h3>Links</h3><p><a href="https://github.com/pragna4718/air-pollution-image-detection-project" target="_blank" rel="noreferrer">GitHub Repository</a></p><p><a href="../projects.html">← Back to Projects</a></p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Sanjana Bhat. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
 </html>

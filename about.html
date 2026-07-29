@@ -1,213 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>About | Sanjana Bhat</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">
-
-Sanjana Bhat
-
-</div>
-
-<ul class="nav-links">
-
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="projects.html">Projects</a></li>
-
-<li><a href="skills.html">Skills</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<section>
-
-<h2>About Me</h2>
-
-<p>
-
-Hello! I'm <strong>Sanjana Bhat</strong>, an Artificial Intelligence & Machine Learning Engineering student at <strong>M.S. Ramaiah Institute of Technology</strong>.
-
-I'm passionate about solving real-world problems using Artificial Intelligence, Machine Learning, Computer Vision, Natural Language Processing, Deep Learning, and Generative AI.
-
-I enjoy transforming ideas into practical applications that create meaningful impact.
-
-</p>
-
-<br>
-
-<h2>Education</h2>
-
-<div class="card">
-
-<h3>M.S. Ramaiah Institute of Technology</h3>
-
-<p>
-
-Bachelor of Engineering (B.E.)
-
-</p>
-
-<p>
-
-Artificial Intelligence & Machine Learning
-
-</p>
-
-<p>
-
-CGPA: <strong>9.1</strong>
-
-</p>
-
-</div>
-
-<br>
-
-<h2>Technical Skills</h2>
-
-<div class="skills">
-
-<span>Python</span>
-
-<span>C</span>
-
-<span>Java</span>
-
-<span>Machine Learning</span>
-
-<span>Deep Learning</span>
-
-<span>TensorFlow</span>
-
-<span>OpenCV</span>
-
-<span>Flask</span>
-
-<span>Scikit-Learn</span>
-
-<span>NumPy</span>
-
-<span>Pandas</span>
-
-<span>HTML</span>
-
-<span>CSS</span>
-
-<span>JavaScript</span>
-
-<span>Git</span>
-
-<span>GitHub</span>
-
-</div>
-
-<br>
-
-<h2>Career Objective</h2>
-
-<p>
-
-My goal is to become an AI Engineer who develops intelligent systems capable of solving real-world challenges. I am continuously improving my knowledge through internships, projects, hackathons, and self-learning. I enjoy exploring new technologies and collaborating with teams to build innovative AI solutions.
-
-</p>
-
-<br>
-
-<h2>Achievements</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>💻 AI & ML Projects</h3>
-
-<p>
-
-Built multiple AI and Machine Learning applications including Agri AI, NutriScan AI, Air Pollution Detection, Smart Career Assistant, and DNA Sequence Analysis.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🏆 Hackathons</h3>
-
-<p>
-
-Actively participated in AI and innovation hackathons to develop impactful solutions and strengthen problem-solving skills.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>📚 Continuous Learning</h3>
-
-<p>
-
-Continuously learning Machine Learning, Deep Learning, MLOps, Generative AI, and Computer Vision through projects, internships, and online courses.
-
-</p>
-
-</div>
-
-</div>
-
-<br>
-
-<h2>Resume</h2>
-
-<p>
-
-You can download my latest resume below.
-
-</p>
-
-<br>
-
-<a href="#" class="btn">
-
-Download Resume
-
-</a>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Sanjana Bhat | AI & Machine Learning Portfolio
-
-</p>
-
-</footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Sanjana Jairam Bhat, a third-year AI and Machine Learning student focused on real-world problem solving and practical innovation." />
+    <meta name="keywords" content="Sanjana Bhat, about me, AI student, machine learning, Ramaiah Institute of Technology" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>About | Sanjana Bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">Sanju<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inner-hero">
+        <div class="container reveal">
+          <p class="eyebrow">About Me</p>
+          <h1>I am passionate about building <span class="gradient-text">intelligent systems</span> that create real impact.</h1>
+          <p class="hero-copy">I am a third-year B.E. Artificial Intelligence &amp; Machine Learning student at Ramaiah Institute of Technology with a current CGPA of 9.4/10. I enjoy solving real-world problems with AI and continuously learning emerging technologies.</p>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="card-grid reveal">
+            <article class="feature-card">
+              <h3>Academic Journey</h3>
+              <p>I am a third-year B.E. Artificial Intelligence &amp; Machine Learning student at Ramaiah Institute of Technology, currently maintaining a CGPA of 9.4/10.</p>
+            </article>
+            <article class="feature-card">
+              <h3>What I Love</h3>
+              <p>I enjoy building AI solutions around machine learning, deep learning, computer vision, data analytics, generative AI, Python development, and frontend experiences.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Beyond Computers</h3>
+              <p>Apart from technology, I enjoy singing, travelling, and reading novels, which constantly shape my creativity and perspective.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Interests</p>
+            <h2>Areas that continue to inspire my work</h2>
+          </div>
+          <div class="card-grid reveal">
+            <article class="feature-card"><h3>Artificial Intelligence</h3></article>
+            <article class="feature-card"><h3>Machine Learning</h3></article>
+            <article class="feature-card"><h3>Deep Learning</h3></article>
+            <article class="feature-card"><h3>Computer Vision</h3></article>
+            <article class="feature-card"><h3>Generative AI</h3></article>
+            <article class="feature-card"><h3>Problem Solving</h3></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container reveal">
+          <div class="contact-card">
+            <h3>Resume</h3>
+            <p>Download my latest professional summary and project highlights.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="images/Sanjana_Bhat_Resume%20(2).pdf" target="_blank" rel="noreferrer">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Sanju</h3>
+          <p>AI &amp; Machine Learning Engineer</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="https://github.com/sanjanabhat846" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/sanjana-bhat-24677a329" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:sanjanabhat846@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Sanjana Bhat. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

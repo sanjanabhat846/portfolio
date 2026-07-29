@@ -1,257 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sanjana Jairam Bhat is a third-year AI and Machine Learning student building solutions in computer vision, generative AI, data analytics, and practical product development." />
+    <meta name="keywords" content="Sanjana Bhat, AI engineer, machine learning, computer vision, generative AI, portfolio" />
+    <meta name="theme-color" content="#0f172a" />
     <title>Sanjana Bhat | AI & ML Portfolio</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">
-Sanjana Bhat
-</div>
-
-<ul class="nav-links">
-
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="projects.html">Projects</a></li>
-
-<li><a href="skills.html">Skills</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<section class="hero">
-
-<div class="hero-content">
-
-<h1>Hello, I'm</h1>
-
-<h1 class="highlight">
-Sanjana Bhat
-</h1>
-
-<h2>
-AI & Machine Learning Engineer
-</h2>
-
-<p>
-
-I build Machine Learning, Deep Learning and Computer Vision solutions that solve real-world problems.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="projects.html" class="btn">
-View Projects
-</a>
-
-<a href="contact.html" class="btn-outline">
-Contact Me
-</a>
-
-</div>
-
-</div>
-
-<div class="hero-image">
-
-<img src="images/profile.png" alt="Profile">
-
-</div>
-
-</section>
-
-<div class="hero-content">
-
-<h1>Hello, I'm <span>Sanjana Bhat</span></h1>
-
-<h2>AI & Machine Learning Engineering Student</h2>
-
-<p>
-
-Passionate about Artificial Intelligence, Machine Learning, Computer Vision,
-Deep Learning and Generative AI. I enjoy building real-world AI applications
-that solve practical problems.
-
-</p>
-
-<a href="projects.html" class="btn">
-View My Projects
-</a>
-
-</div>
-
-</section>
-
-<section class="about-preview">
-
-<h2>About Me</h2>
-
-<p>
-
-I am a second-year Artificial Intelligence & Machine Learning student at
-M.S. Ramaiah Institute of Technology. I enjoy creating intelligent software
-using Machine Learning, Computer Vision, NLP and Deep Learning.
-
-My goal is to become an AI Engineer while contributing to impactful real-world
-projects.
-
-</p>
-
-<a href="about.html" class="btn-small">
-
-Read More →
-
-</a>
-
-</section>
-
-<section class="projects-preview">
-
-<h2>Featured Projects</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🌱 Agri AI</h3>
-
-<p>
-
-Crop disease detection using Deep Learning and Computer Vision.
-
-</p>
-
-<a href="projects/agriai.html">
-
-View Case Study →
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🥗 NutriScan AI</h3>
-
-<p>
-
-Food recognition and nutrition estimation using AI.
-
-</p>
-
-<a href="projects/nutriscan.html">
-
-View Case Study →
-
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🧬 DNA Sequence Analysis</h3>
-
-<p>
-
-Machine Learning for DNA sequence pattern analysis.
-
-</p>
-
-<a href="projects/dna.html">
-
-View Case Study →
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="skills-preview">
-
-<h2>Skills</h2>
-
-<div class="skills">
-
-<span>Python</span>
-
-<span>Machine Learning</span>
-
-<span>Deep Learning</span>
-
-<span>TensorFlow</span>
-
-<span>OpenCV</span>
-
-<span>Flask</span>
-
-<span>Scikit-Learn</span>
-
-<span>Git</span>
-
-<span>HTML</span>
-
-<span>CSS</span>
-
-<span>JavaScript</span>
-
-<span>GitHub</span>
-
-</div>
-
-</section>
-
-<section class="contact-preview">
-
-<h2>Let's Connect!</h2>
-
-<p>
-
-Interested in collaborating or discussing AI projects?
-
-</p>
-
-<a href="contact.html" class="btn">
-
-Contact Me
-
-</a>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Sanjana Bhat • AI & Machine Learning Portfolio
-
-</p>
-
-</footer>
-
-<script src="js/script.js"></script>
-
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">Sanju<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">AI &amp; Machine Learning Engineer</p>
+            <h1>Hello, I’m <span class="gradient-text">Sanjana Jairam Bhat</span></h1>
+            <h2>Building <span class="typing-text">AI solutions</span></h2>
+            <p class="hero-copy">
+              I am a passionate third-year B.E. Artificial Intelligence &amp; Machine Learning student at Ramaiah Institute of Technology with a current CGPA of 9.4/10. I enjoy building intelligent AI solutions using machine learning, deep learning, computer vision, data analytics, and generative AI.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="projects.html">Explore Projects</a>
+              <a class="btn btn-secondary" href="contact.html">Let’s Connect</a>
+            </div>
+            <div class="hero-highlights">
+              <span class="pill">Computer Vision</span>
+              <span class="pill">Generative AI</span>
+              <span class="pill">Data Analytics</span>
+              <span class="pill">Python</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="glass-panel avatar-card">
+              <div class="avatar">SB</div>
+              <h3 class="avatar-name">Sanjana Jairam Bhat</h3>
+              <p class="avatar-role">Preferred name: Sanju</p>
+              <p class="avatar-location">Bangalore, Karnataka, India</p>
+              <div class="hero-socials">
+                <a href="https://github.com/sanjanabhat846" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/sanjana-bhat-24677a329" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:sanjanabhat846@gmail.com">Email</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container stats-grid reveal">
+          <article class="stat-card">
+            <h3 class="counter" data-target="5">0</h3>
+            <p>AI Projects</p>
+          </article>
+          <article class="stat-card">
+            <h3 class="counter" data-target="9.4">0</h3>
+            <p>CGPA</p>
+          </article>
+          <article class="stat-card">
+            <h3 class="counter" data-target="9">0</h3>
+            <p>Certifications</p>
+          </article>
+          <article class="stat-card">
+            <h3 class="counter" data-target="2">0</h3>
+            <p>Years of Growth</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>Crafting intelligent systems with a strong product mindset</h2>
+          </div>
+          <div class="card-grid reveal">
+            <article class="feature-card">
+              <h3>Who I Am</h3>
+              <p>I’m a third-year B.E. Artificial Intelligence &amp; Machine Learning student at Ramaiah Institute of Technology, currently maintaining a CGPA of 9.4/10.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Interests</h3>
+              <p>I enjoy building AI systems around machine learning, deep learning, computer vision, data analytics, generative AI, Python development, and frontend experiences.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Beyond Tech</h3>
+              <p>Apart from technology, I enjoy singing, travelling, and reading novels, which constantly shape my creativity and perspective.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work that blends research, design, and product thinking</h2>
+          </div>
+          <div class="card-grid reveal">
+            <article class="project-card">
+              <h3>AgriSense AI</h3>
+              <p>AI-powered plant disease detection using CNN and Flask with image classification and crop recommendations.</p>
+              <a href="projects/agriai.html">View Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>NutriScan AI</h3>
+              <p>Food nutrition analysis and calorie estimation through computer vision and intelligent image recognition.</p>
+              <a href="projects/nutriscan.html">View Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>DNA Sequencing Optimization</h3>
+              <p>Machine learning-driven optimization for DNA sequence workflows and biological data analysis.</p>
+              <a href="projects/dna.html">View Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>Air Pollution Image Detection</h3>
+              <p>Predicting air pollution conditions using machine learning and environmental datasets with interactive analysis.</p>
+              <a href="projects/airpollution.html">View Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>AI Career Assistant</h3>
+              <p>Generative AI application that supports career guidance, resume suggestions, and interview preparation.</p>
+              <a href="projects/careerassistant.html">View Case Study →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Technical depth across AI, software engineering, and product delivery</h2>
+          </div>
+          <div class="card-grid reveal">
+            <article class="skill-card">
+              <h3>Programming</h3>
+              <div class="skill-list">
+                <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C</span><span class="pill">C++</span><span class="pill">JavaScript</span><span class="pill">SQL</span><span class="pill">HTML</span><span class="pill">CSS</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <h3>Machine Learning &amp; AI</h3>
+              <div class="skill-list">
+                <span class="pill">Deep Learning</span><span class="pill">TensorFlow</span><span class="pill">Scikit-learn</span><span class="pill">OpenCV</span><span class="pill">NumPy</span><span class="pill">Pandas</span><span class="pill">Prompt Engineering</span><span class="pill">Generative AI</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <h3>Tools &amp; Workflow</h3>
+              <div class="skill-list">
+                <span class="pill">Flask</span><span class="pill">Git</span><span class="pill">GitHub</span><span class="pill">VS Code</span><span class="pill">Power BI</span><span class="pill">Figma</span><span class="pill">Data Analytics</span><span class="pill">Problem Solving</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Open to collaboration, internships, and meaningful AI opportunities</h2>
+          </div>
+          <div class="contact-card reveal">
+            <p>I’m always interested in AI-driven products, research collaborations, and problem-solving challenges that create measurable impact.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="contact.html">Get in Touch</a>
+              <a class="btn btn-secondary" href="resume.html">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Sanju</h3>
+          <p>AI &amp; Machine Learning Engineer</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="https://github.com/sanjanabhat846" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/sanjana-bhat-24677a329" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:sanjanabhat846@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Sanjana Bhat. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

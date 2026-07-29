@@ -1,129 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Sanjana Jairam Bhat’s AI and machine learning projects in computer vision, healthcare, sustainability, and career guidance." />
+    <meta name="keywords" content="AI projects, machine learning portfolio, AgriSense AI, NutriScan AI, DNA sequence, air pollution" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Projects | Sanjana Bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="top">
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
 
-<head>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">Sanju<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <main>
+      <section class="inner-hero">
+        <div class="container reveal">
+          <p class="eyebrow">Projects</p>
+          <h1>Selected work across <span class="gradient-text">vision, healthcare, sustainability, and guidance</span>.</h1>
+          <p class="hero-copy">Each project reflects a blend of AI expertise, thoughtful design, and a clear focus on solving real-world problems with measurable value.</p>
+        </div>
+      </section>
 
-<title>Projects | Sanjana Bhat</title>
+      <section class="section-shell">
+        <div class="container">
+          <div class="card-grid reveal">
+            <article class="project-card">
+              <h3>AgriSense AI</h3>
+              <p>AI-powered plant disease detection using CNN and Flask with image classification and crop recommendations.</p>
+              <a href="projects/agriai.html">Open Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>NutriScan AI</h3>
+              <p>Food nutrition analysis and calorie estimation through computer vision and intelligent image recognition.</p>
+              <a href="projects/nutriscan.html">Open Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>DNA Sequencing Optimization</h3>
+              <p>Machine learning solution for DNA sequence optimization and biological data analysis.</p>
+              <a href="projects/dna.html">Open Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>Air Pollution Image Detection</h3>
+              <p>Predictive environmental analysis using machine learning and historical pollution datasets with interactive insights.</p>
+              <a href="projects/airpollution.html">Open Case Study →</a>
+            </article>
+            <article class="project-card">
+              <h3>AI Career Assistant</h3>
+              <p>Generative AI project that supports career guidance, resume suggestions, and interview preparation.</p>
+              <a href="projects/careerassistant.html">Open Case Study →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<link rel="stylesheet" href="css/style.css">
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Sanju</h3>
+          <p>AI &amp; Machine Learning Engineer</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="https://github.com/sanjanabhat846" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/sanjana-bhat-24677a329" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:sanjanabhat846@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Sanjana Bhat. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
 
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">
-Sanjana Bhat
-</div>
-
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="skills.html">Skills</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-</nav>
-
-</header>
-
-<section>
-
-<h2>My AI & Machine Learning Projects</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🌱 Agri AI</h3>
-
-<p>
-Deep Learning based crop disease detection system that helps farmers identify diseases from leaf images.
-</p>
-
-<a href="projects/agriai.html">
-View Case Study →
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🥗 NutriScan AI</h3>
-
-<p>
-Food image recognition system that predicts nutritional information using Computer Vision.
-</p>
-
-<a href="projects/nutriscan.html">
-View Case Study →
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🧬 DNA Sequence Analysis</h3>
-
-<p>
-Machine Learning solution for DNA sequence analysis and mutation identification.
-</p>
-
-<a href="projects/dna.html">
-View Case Study →
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>🌫 Air Pollution Detection</h3>
-
-<p>
-Predicts air quality levels using Machine Learning and environmental datasets.
-</p>
-
-<a href="projects/airpollution.html">
-View Case Study →
-</a>
-
-</div>
-
-<div class="card">
-
-<h3>💼 Smart Career Assistant</h3>
-
-<p>
-AI-powered resume and job matching system using NLP techniques.
-</p>
-
-<a href="projects/careerassistant.html">
-View Case Study →
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Sanjana Bhat | AI & Machine Learning Portfolio
-
-</p>
-
-</footer>
-
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>

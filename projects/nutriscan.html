@@ -1,169 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NutriScan AI | Sanjana Bhat</title>
-
-<link rel="stylesheet" href="../css/style.css">
-
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="logo">
-Sanjana Bhat
-</div>
-
-<ul class="nav-links">
-
-<li><a href="../index.html">Home</a></li>
-<li><a href="../about.html">About</a></li>
-<li><a href="../projects.html">Projects</a></li>
-<li><a href="../skills.html">Skills</a></li>
-<li><a href="../contact.html">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<section>
-
-<h1>🥗 NutriScan AI</h1>
-
-<p>
-
-NutriScan AI is a Computer Vision application that recognizes food items from images and provides estimated nutritional information. The system helps users make healthier food choices using Artificial Intelligence.
-
-</p>
-
-<h2>Problem Statement</h2>
-
-<p>
-
-Many people are unaware of the nutritional value of the food they consume. Calculating calories manually is difficult and time-consuming.
-
-</p>
-
-<h2>Solution</h2>
-
-<p>
-
-Users upload a food image and the AI predicts the food category along with estimated calories, carbohydrates, proteins, and fats.
-
-</p>
-
-<h2>Key Features</h2>
-
-<ul>
-
-<li>Food image recognition</li>
-
-<li>Calorie estimation</li>
-
-<li>Nutritional information</li>
-
-<li>Healthy eating recommendations</li>
-
-<li>Simple and responsive interface</li>
-
-</ul>
-
-<h2>Technologies Used</h2>
-
-<ul>
-
-<li>Python</li>
-
-<li>TensorFlow</li>
-
-<li>Keras</li>
-
-<li>OpenCV</li>
-
-<li>Flask</li>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>JavaScript</li>
-
-</ul>
-
-<h2>Dataset</h2>
-
-<p>
-
-Food image datasets containing multiple food categories for training the deep learning model.
-
-</p>
-
-<h2>My Contributions</h2>
-
-<ul>
-
-<li>Image preprocessing</li>
-
-<li>CNN model development</li>
-
-<li>Frontend development</li>
-
-<li>Backend API integration</li>
-
-<li>Testing and evaluation</li>
-
-</ul>
-
-<h2>Future Improvements</h2>
-
-<ul>
-
-<li>Barcode scanning</li>
-
-<li>Meal planning</li>
-
-<li>Diet recommendations</li>
-
-<li>BMI calculator</li>
-
-<li>Mobile application</li>
-
-</ul>
-
-<h2>GitHub</h2>
-
-<p>
-
-<a href="https://github.com/" target="_blank">
-
-Project Repository
-
-</a>
-
-</p>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Sanjana Bhat | AI & Machine Learning Portfolio
-
-</p>
-
-</footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NutriScan AI project details by Sanjana Bhat." />
+    <meta name="theme-color" content="#0f172a" />
+    <title>NutriScan AI | Sanjana Bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body id="top">
+    <div class="loading-screen" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+    <canvas id="particle-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="../index.html" class="logo">Sanju<span>.</span></a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../skills.html">Skills</a></li>
+          <li><a href="../projects.html" class="active">Projects</a></li>
+          <li><a href="../experience.html">Experience</a></li>
+          <li><a href="../education.html">Education</a></li>
+          <li><a href="../certifications.html">Certifications</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../resume.html">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inner-hero">
+        <div class="container reveal">
+          <p class="eyebrow">Project Detail</p>
+          <h1>NutriScan AI</h1>
+          <p class="hero-copy">A computer vision application that recognizes food items and estimates nutritional information to support healthier eating decisions.</p>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="container card-grid reveal">
+          <article class="feature-card"><h3>Overview</h3><p>NutriScan AI helps users understand food nutrition by analyzing images and predicting labels and approximate nutritional values.</p></article>
+          <article class="feature-card"><h3>Problem Statement</h3><p>Many people struggle to estimate calories and nutrition manually, especially when eating out or managing diet goals.</p></article>
+          <article class="feature-card"><h3>Solution</h3><p>Users upload food images, and the AI predicts the food category along with estimated calories, protein, carbohydrates, and fats.</p></article>
+          <article class="feature-card"><h3>Features</h3><p>Image recognition, nutrition estimation, user-friendly UI, and practical recommendations for healthier choices.</p></article>
+          <article class="feature-card"><h3>Technologies Used</h3><p>Python, TensorFlow, Keras, OpenCV, Flask, HTML, CSS, JavaScript.</p></article>
+          <article class="feature-card"><h3>Challenges</h3><p>Creating accurate predictions from diverse food categories and handling differences in portion sizes and presentation.</p></article>
+          <article class="feature-card"><h3>Future Improvements</h3><p>Barcode scanning, meal planning, diet recommendations, and mobile accessibility.</p></article>
+          <article class="feature-card"><h3>Links</h3><p><a href="https://github.com/sanjanabhat846" target="_blank" rel="noreferrer">GitHub Repository</a></p><p><a href="../projects.html">← Back to Projects</a></p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Sanjana Bhat. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
 </html>
