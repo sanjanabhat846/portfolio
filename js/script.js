@@ -1,4 +1,4 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const loadingScreen = document.querySelector(".loading-screen");
   const navToggle = document.querySelector(".nav-toggle");
   const navLinks = document.querySelector(".nav-links");
@@ -137,11 +137,35 @@
   }
 
   const contactForm = document.querySelector(".contact-form");
-  if (contactForm) {
-    contactForm.addEventListener("submit", (event) => {
-      event.preventDefault();
-      alert("Thanks for reaching out! Your message has been prepared for Sanjana.");
+
+if (contactForm) {
+
+  contactForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_dlzv4pt",
+      "template_ztceem4",
+      this
+    )
+
+    .then(() => {
+
+      alert("✅ Message sent successfully!");
+
       contactForm.reset();
+
+    })
+
+    .catch((error) => {
+
+      console.error(error);
+
+      alert("❌ Failed to send message.");
+
     });
-  }
+
+  });
+}
 });
